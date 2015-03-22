@@ -3,22 +3,15 @@
     <persistence-unit name="VMC_PU" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <class>com.beike.dao.User</class>
-
-
+        
         <properties>
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
 
-            <!-- 京南数据库配置 -->
             <property name="hibernate.connection.username" value="root"/>
             <property name="hibernate.connection.password" value="beike"/>
             <property name="hibernate.connection.url" value="jdbc:mysql://127.0.0.1:3306/beike?zeroDateTimeBehavior=convertToNull"/>
-
-            <!-- 实验室数据库配置 -->
-            <!-- <property name="hibernate.connection.username" value="root"/>
-            <property name="hibernate.connection.password" value="telestar"/>
-            <property name="hibernate.connection.url" value="jdbc:mysql://192.168.1.43:3306/freeidc"/>  -->
 
             <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
             <!-- 使用 c3p0 连接池 -->
