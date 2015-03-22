@@ -13,7 +13,7 @@
             <!-- 京南数据库配置 -->
             <property name="hibernate.connection.username" value="root"/>
             <property name="hibernate.connection.password" value="beike"/>
-            <property name="hibernate.connection.url" value="jdbc:mysql://123.56.115.136:3306/beike?zeroDateTimeBehavior=convertToNull"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://127.0.0.1:3306/beike?zeroDateTimeBehavior=convertToNull"/>
 
             <!-- 实验室数据库配置 -->
             <!-- <property name="hibernate.connection.username" value="root"/>
