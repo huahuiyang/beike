@@ -7,7 +7,7 @@ import com.beike.base.entitymanager.NoCacheEntityManagerHelper;
 /**
  * Created by huahui.yang on 3/22/15.
  */
-public class UserDAO extends AbstractDAO<User> {
+public class UserDAOQ extends AbstractDAO<User> {
 
     @Override
     public Class getEntityClass() {
