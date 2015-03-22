@@ -3,7 +3,7 @@
     <persistence-unit name="VMC_PU" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <class>com.beike.dao.User</class>
-        
+
         <properties>
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
