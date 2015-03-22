@@ -1,7 +1,7 @@
 package com.beike.manager;
 
 import com.beike.dao.User;
-import com.beike.dao.UserDAOQ;
+import com.beike.dao.UserDAO;
 import org.apache.log4j.Logger;
 
 import java.util.List;
@@ -12,7 +12,7 @@ import java.util.List;
 public class UserManager {
     private static final Logger LOGGER = Logger.getLogger(UserManager.class);
 
-    private static UserDAOQ userDAO = new UserDAOQ();
+    private static UserDAO userDAO = new UserDAO();
 
     public Integer addUser(User user) {
         userDAO.save(user);
