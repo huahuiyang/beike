@@ -1,2 +1,2 @@
-FROM ubunto
+FROM ubuntu
 RUN echo hi > /hi
